@@ -5,7 +5,7 @@ permalink           : pretty
 # relative_permalinks: true
 
 # Setup
-title               : Alex's Tech Blog
+title               : Alex's Blog
 tagline             : 'JavaScript, Python and Web development frameworks'
 description         : 'Articles of web development'
 url                 : http://gtopia.github.io/
@@ -17,4 +17,4 @@ author              : Alex Gao
 name                : 'Alex Gao'
 
 # Custom vars
-version             :             0.1.0
+version             : 0.1.0

@@ -1,5 +1,14 @@
-# Alex's Tech Blog
+# Alex's Blog
 
-Welcome to Alex's Tech Blog!
+Welcome to Alex's Blog!
 
-Please visit: [http://gtopia.github.io/](http://gtopia.github.io/) to view the site.
+Please visit [http://gtopia.github.io/](http://gtopia.github.io/) to view the site.
+
+
+
+
+
+
+
+
+
