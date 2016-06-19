@@ -1,0 +1,26 @@
+{% if page.comments %}
+<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+    <div id="disqus_thread"></div>
+
+    <script type="text/javascript">
+    var disqus_shortname = 'gtopia';
+    var disqus_identifier = '{{ page.url }}';
+
+    // var disqus_config = function () {
+    // this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+    // this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    // };
+
+    (function() {
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(s);
+    })();
+    </script>
+
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+</div>
+{% endif %}
