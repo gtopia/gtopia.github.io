@@ -3,4 +3,4 @@ layout: page
 title: About
 ---
 
-Welcome to Alex's Blog!
+Welcome to Alan's Blog!
